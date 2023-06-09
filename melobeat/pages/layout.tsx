@@ -1,6 +1,7 @@
 import React, { ReactNode, useState } from "react";
 import styles from "./layout.module.scss";
-import "../styles/reset.scss";
+import styles_reset from "./reset.module.scss";
+
 import Link from "next/link";
 
 import Image from "next/image";

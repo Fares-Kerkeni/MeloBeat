@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Connexion.module.scss";
-import "../../styles/reset.scss";
 
 const Connexion: React.FC = () => {
   return (
