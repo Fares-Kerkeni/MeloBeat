@@ -82,7 +82,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <Image src="/image/logo.png" alt="logo" width={30} height={30} />
             <p>MeloBeat</p>
           </div>
+
           <div className={styles.Shutdown}>
+            <div className={styles.container_insc_con}>
+              <Link href="/inscription/Inscription">
+                <p>Insciption</p>
+              </Link>
+              <Link href="/connexion/Connexion">
+                <p>Connexion</p>
+              </Link>
+            </div>
             <Image
               src="/image/Shutdown.png"
               alt="Shutdown.png"

@@ -83,9 +83,36 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
       .Shutdown {
         margin-right: 50px;
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .container_insc_con {
+          display: flex;
+
+          a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin-left: 25px;
+            border-radius: 5px;
+          }
+          a:first-child {
+            background-color: #d72225;
+          }
+          a:nth-child(2) {
+            background-color: #fff;
+            color: #000;
+          }
+        }
       }
 
       .logo {
@@ -111,6 +138,7 @@
       width: 100%;
       height: calc(100% - 100px);
       background-color: #0e0e0e;
+      color: #fff;
     }
   }
 }
